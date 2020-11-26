@@ -1,0 +1,15 @@
+img {
+	width: 200px;
+	height: 200px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.back {
+    background-image: url("../../../assets/img/deserto.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}

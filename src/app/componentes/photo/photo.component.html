@@ -1,0 +1,15 @@
+<div>
+    <form class="back">
+        <div>
+            <fieldset>
+                <legend>Esto encontrei em GIPHY</legend>
+                    <div class="btn-denovo">
+                        <button class="denovo" type="button" onclick="javascript:location.href='/'">Buscar de novo</button>
+                    </div>
+                    <img *ngFor="let img of photo.data" [src]="img.images.fixed_width.url">
+            </fieldset>
+        </div>
+
+        
+    </form>
+</div>

@@ -1,0 +1,12 @@
+<body>
+
+    <form class="back" id="back" #searchForm="ngForm" (ngSubmit)="search(searchForm.form)">
+        <p>Buscador de imagens</p>
+        <div class="search" id="search">
+            <input type="text" placeholder="Buscar..." id="placeholder" name="palabra" [(ngModel)]="palabra"><br>
+            <button type="submit">Buscar</button>
+        </div>
+            
+    </form>
+
+</body>
